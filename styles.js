@@ -8,7 +8,15 @@ export const Container = styled.View`
 `;
 
 export const MainText = styled.Text`
-  font-family: monospace;
+  font-family: Roboto;
   font-size: 20px;
   font-weight: bold;
+`;
+
+export const Input = styled.TextInput`
+  border-width: 0;
+  margin-top: 20px;
+  font-size: 40px;
+  font-family: Roboto;
+  color: #757575;
 `;
